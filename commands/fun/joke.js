@@ -4,7 +4,7 @@ const { EmbedBuilder } = require('discord.js');
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('joke')
-        .setDescription('Get a random joke'),
+        .setDescription('Get a random joke.'),
     async execute(interaction) {
         const jokes = [
             "I just got my doctor's test results and I'm really upset about it. Turns out, I'm not gonna be a doctor.",
