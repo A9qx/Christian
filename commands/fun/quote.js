@@ -20,7 +20,10 @@ module.exports = {
             "it's ok, we can buy a new one",
             "I am only available from 12:00-18:00 MST on Monday-Friday. (this may change if I am not busy on the weekends, but this is the general idea",
             "Hi there! I'm the owner of Azure Printing, falsonix. I started this business as a way for people to get affordable 3D prints with good quality. If you have any questions or want to start an order, go to ⁠get-a-quote and click the button there. Thanks!",
-            "***✅ TacticalSoupCan#9239 has been warned. || Don't abuse admin, please.***"
+            "***✅ TacticalSoupCan#9239 has been warned. || Don't abuse admin, please.***",
+            "CONFIDENTIALITY NOTICE: The contents of this email message and any attachments are intended solely for the addressees and/or may contain confidential or privileged information considered confidential under the Family Educational Rights and Privacy Act and may be legally protected from disclosure.  If you are not the intended recipient of this message or their agent, or if this message has been addressed to you in error, please immediately alert the sender by reply email and then delete this message and any attachments. The email may be a public record subject to disclosure under the Colorado Open Records Act.",
+            "fronch fries",
+            "typeerrrarace me right now"
         ];
 
         const randomQuoteIndex = Math.floor(Math.random() * quotes.length);
