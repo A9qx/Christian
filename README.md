@@ -12,21 +12,21 @@ First, install the required packages. The project was built using NodeJS v18.17.
 
   
 
-yarn install
+    yarn install
 
 ## Fill in the required tokens in config.json.example:
 
   
 
-{
-
-"clientId": "get from discord developer portal and put here",
-
-"guildId": "get from discord developer portal and put here",
-
-"token": "get from discord developer portal and put here"
-
-}
+    {
+    
+    	"clientId": "get from discord developer portal and put here",
+    
+    	"guildId": "get from discord developer portal and put here",
+    
+    	"token": "get from discord developer portal and put here"
+    
+    }
 
 ### Rename the file to config.json when done, don't worry it's in .gitignore
 
@@ -44,13 +44,13 @@ To ensure the seamless functionality of slash commands, a few essential componen
 
   
 
-node deploy-commands.js
+    node deploy-commands.js
 
 ### Global:
 
   
 
-node deploy-commands-global.js
+    node deploy-commands-global.js
 
 ## Run the Bot:
 
