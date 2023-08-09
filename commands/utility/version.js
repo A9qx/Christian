@@ -10,7 +10,7 @@ module.exports = {
             .setColor("#ffffff")
             .setDescription("View information regarding this build.")
             .addFields(
-                { name: 'Change Log:', value: 'Inital Release', inline: true },
+                { name: 'Change Log:', value: 'Initial Release', inline: true },
                 { name: 'Build:', value: 'Development', inline: true },
                 { name: 'Number:', value: '1.0.0', inline: true },
                 { name: 'Node Version:', value: process.version, inline: true },
