@@ -1,5 +1,5 @@
 # Christian
-
+![troll_face](https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Trollface_non-free.png/220px-Trollface_non-free.png)
   
 
 A Discord bot built primarily as a joke, based on my IRL friend Christian. Feel free to use, under the MIT license.
