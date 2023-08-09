@@ -30,4 +30,7 @@ To ensure the seamless functionality of slash commands, a few essential componen
 ### That's it! You should be up and running now!
 
 ## Donate:
-Enjoying the project, feel free to send me a tip if you want, **"dem bills an't gonna pay themselves!" - Christian** Cash App: **$A9qx**
+
+Enjoying the project, feel free to send me a tip if you want, **"dem bills an't gonna pay themselves!" - Christian** 
+
+ - Cash App: **$A9qx**
