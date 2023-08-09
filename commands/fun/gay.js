@@ -15,7 +15,7 @@ module.exports = {
         
         const gayEmbed = new EmbedBuilder()
             .setColor("#ffffff")
-            .setDescription(`${user.toString()} is ${gayFactor}% gay! Congratulations!`)
+            .setDescription(`${user.toString()} is ${gayFactor}% gay! Congratulations 🏳️‍🌈!`)
             .setTimestamp()
 
         return await interaction.reply({ embeds: [gayEmbed] })        
