@@ -20,7 +20,12 @@ module.exports = {
             "“I’m sorry” and “I apologize” mean the same thing. Except at a funeral.",
             "You don’t need a parachute to go skydiving. You need a parachute to go skydiving twice.",
             "My girlfriend wanted a marriage just like a fairy tale. Fair enough. I gave her a loaf of bread and left her in the forest.",
-            "My daughter asked me how stars die. Usually an overdose I told her."
+            "My daughter asked me how stars die. Usually an overdose I told her.",
+            "I was digging in our garden when I found a chest full of gold coins. I was about to run straight home to tell my wife about it, but then I remembered why I was digging in our garden.",
+            "My girlfriend’s dog died, so I tried to cheer her up by getting her an identical one. It just made her more upset. She screamed at me and said, What am I supposed to do with two dead dogs?",
+            "My elderly relatives liked to tease me at weddings, saying, “You’ll be next!” They soon stopped though, once I started doing the same to them at funerals.",
+            "Two hunters are in the woods when one of them collapses. His hunting buddy immediately calls 911. My friend isn't breathing, he shouts into the phone. What should I do? Relax, the operator tells him. I can help. First, let's make sure he's dead. There's silence, and then a gunshot. The guy gets back on the phone and says, OK, now what?",
+            "One man’s trash is another man’s treasure. Wonderful saying, horrible way to find out you were adopted. I know a thing or two, cause I've seen a thing or two."
         ];
 
         const randomJokeIndex = Math.floor(Math.random() * jokes.length);
@@ -28,7 +33,7 @@ module.exports = {
 
         const jokeEmbed = new EmbedBuilder()
             .setColor("#ffffff")
-            .setTitle('Random Joke')
+            .setTitle('Joke:')
             .setDescription(randomJoke)
             .setTimestamp()
 
