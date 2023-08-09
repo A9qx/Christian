@@ -1,0 +1,15 @@
+{
+  "name": "christian",
+  "version": "1.0.0",
+  "description": "A Discord bot built primarily as a joke.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andreas Miller <73205713+A9qx@users.noreply.github.com>",
+  "license": "MIT",
+  "repository": "https://github.com/A9qx/Christian.git",
+  "dependencies": {
+    "discord.js": "^14.12.1"
+  }
+}
