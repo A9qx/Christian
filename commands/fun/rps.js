@@ -3,7 +3,7 @@ const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('rps')
-        .setDescription('Play rock-paper-scissors with the bot.')
+        .setDescription('Play rock-paper-scissors with Me!')
         .addStringOption(option =>
             option.setName('choice')
                 .setDescription('Your choice: rock, paper, or scissors.')
