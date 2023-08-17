@@ -22,7 +22,7 @@ First, install the required packages. The project was built using NodeJS v18.17.
     
     	"clientId": "get from discord developer portal and put here",
     
-    	"guildId": "copy the guild id your using to test the bot in, and put here ",
+    	"guildId": "copy the guild id your using to test the bot in, and put here",
     
     	"token": "get from discord developer portal and put here"
     
