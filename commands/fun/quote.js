@@ -33,7 +33,11 @@ module.exports = {
             "lol thats what makes this really funny because as you can see im actually really goated and ksaooifudsfusoifudsfusdoifusdfudsoiusfs fdsuf oisdufsdi fusdoiuf  -Andreas",
             "simps will be simps  -Andreas",
             "(Sending DDOS now)  -Andreas",
-            "I need a life  -Andreas"
+            "I need a life  -Andreas",
+            "cheese  -oat",
+            "faggot confirmed 😈  -oat",
+            "CHCIKEN BREAST  -oat",
+            "you should kill yourself NOW  -Evan"
         ];
 
         const randomQuoteIndex = Math.floor(Math.random() * quotes.length);
