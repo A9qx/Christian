@@ -34,7 +34,10 @@ module.exports = {
             "simps will be simps  -Andreas",
             "(Sending DDOS now)  -Andreas",
             "I need a life  -Andreas",
-            "cheese  -oat"
+            "cheese  -oat",
+            "faggot confirmed 😈  -oat",
+            "CHCIKEN BREAST  -oat",
+            "you should kill yourself NOW  -Evan"
         ];
 
         const randomQuoteIndex = Math.floor(Math.random() * quotes.length);
