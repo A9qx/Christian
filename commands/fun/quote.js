@@ -22,7 +22,11 @@ module.exports = {
             "Gay people are kind of gay ngl  -Joseph",
             "can i put my balls in yo jaw",
             "amongus",
-            "it's too long  -Andreas"
+            "it's too long  -Andreas",
+            "dig bick",
+            "fortnite",
+            "kid named finger:",
+            "how bad can i be? i'm just crashing the economy"
         ];
 
         const randomQuoteIndex = Math.floor(Math.random() * quotes.length);
