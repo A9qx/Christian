@@ -4,7 +4,7 @@ const { EmbedBuilder } = require('discord.js');
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('quote')
-        .setDescription("I will give you something I've actually before."),
+        .setDescription("I will give you something me or someone else has actually said before."),
     async execute(interaction) {
         const quotes = [
             "you're gonna make my computer explode",
@@ -22,11 +22,18 @@ module.exports = {
             "Gay people are kind of gay ngl  -Joseph",
             "can i put my balls in yo jaw",
             "amongus",
-            "it's too long  -Andreas",
             "dig bick",
             "fortnite",
             "kid named finger:",
-            "how bad can i be? i'm just crashing the economy"
+            "how bad can i be? i'm just crashing the economy",
+            "naked xbox",
+            "usps is speedrunning my package through every single regional facility",
+            "imagine not having a Verified Bank Account  -Andreas",
+            "i owe you  -Andreas",
+            "lol thats what makes this really funny because as you can see im actually really goated and ksaooifudsfusoifudsfusdoifusdfudsoiusfs fdsuf oisdufsdi fusdoiuf  -Andreas",
+            "simps will be simps  -Andreas",
+            "(Sending DDOS now)  -Andreas",
+            "I need a life  -Andreas"
         ];
 
         const randomQuoteIndex = Math.floor(Math.random() * quotes.length);
