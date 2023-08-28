@@ -8,11 +8,10 @@ module.exports = {
         const veresionEmbed = new EmbedBuilder()
             .setTitle("Version:")
             .setColor("#ffffff")
-            .setDescription("View information regarding this build.")
+            .setDescription("**What's Changed**:\n* added more quotes by @falsonix in https://github.com/A9qx/Christian/pull/1\n* added even MORE quotes lmao by @falsonix in https://github.com/A9qx/Christian/pull/2\n\n**New Contributors**\n* @falsonix made their first contribution in https://github.com/A9qx/Christian/pull/1\n**Full Changelog**: https://github.com/A9qx/Christian/compare/v1.0.0...v1.1.0")
             .addFields(
-                { name: 'Change Log:', value: 'Initial Release', inline: true },
                 { name: 'Build:', value: 'Stable', inline: true },
-                { name: 'Number:', value: '1.0.0', inline: true },
+                { name: 'Number:', value: 'v1.1.0', inline: true },
                 { name: 'Node Version:', value: process.version, inline: true },
                 { name: 'Contributors:', value: 'Falsonix', inline: true }
             )
