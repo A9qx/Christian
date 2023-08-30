@@ -5,6 +5,12 @@ module.exports = {
         .setName('about')
         .setDescription('Get information about the bot.'),
     async execute(interaction) {
+        const uptime = process.uptime();
+        const hours = Math.floor(uptime / 3600);
+        const minutes = Math.floor((uptime % 3600) / 60);
+        const seconds = Math.floor(uptime % 60);
+        const uptimeString = `${hours}h ${minutes}m ${seconds}s`;
+
         const aboutEmbed = new EmbedBuilder()
             .setTitle("About:")
             .setColor("#ffffff")
@@ -12,6 +18,7 @@ module.exports = {
             .setURL('https://github.com/A9qx/Christian')
             .setImage('https://static.wikia.nocookie.net/villainsfanon/images/4/4e/Troll-Face-Meme-PNG.png/revision/latest/scale-to-width-down/1200?cb=20190104124219')
             .addFields(
+                { name: 'Uptime:', value: uptimeString, inline: true },
                 { name: '/about', value: 'Get information about the bot.', inline: true },
                 { name: '/ping', value: 'Tests the latency between you and Discord!', inline: true },
                 { name: '/version', value: 'View information regarding this build.', inline: true },
