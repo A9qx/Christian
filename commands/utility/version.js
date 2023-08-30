@@ -14,11 +14,11 @@ module.exports = {
         const versionEmbed = new EmbedBuilder()
             .setTitle("Version:")
             .setColor("#ffffff")
-            .setDescription("**What's Changed**:\n* i added more quotes lol by @falsonix in https://github.com/A9qx/Christian/pull/3\n**Full Changelog**: https://github.com/A9qx/Christian/compare/v1.1.0...v1.1.1")
+            .setDescription("**Full Changelog**: https://github.com/A9qx/Christian/compare/v1.1.1...v1.1.2")
             .addFields(
                 { name: 'Uptime:', value: uptimeString, inline: true },
                 { name: 'Build:', value: 'Stable', inline: true },
-                { name: 'Number:', value: 'v1.1.1', inline: true },
+                { name: 'Number:', value: 'v1.1.2', inline: true },
                 { name: 'Node Version:', value: process.version, inline: true },
                 { name: 'Contributors:', value: 'Falsonix', inline: true }
             )
