@@ -18,7 +18,7 @@ module.exports = {
             .addFields(
                 { name: 'Uptime:', value: uptimeString, inline: true },
                 { name: 'Build:', value: 'Stable', inline: true },
-                { name: 'Number:', value: 'v1.1.2', inline: true },
+                { name: 'Number:', value: 'v1.1.3', inline: true },
                 { name: 'Node Version:', value: process.version, inline: true },
                 { name: 'Contributors:', value: 'Falsonix', inline: true }
             )
