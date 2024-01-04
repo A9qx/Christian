@@ -14,7 +14,7 @@ module.exports = {
         const versionEmbed = new EmbedBuilder()
             .setTitle("Version:")
             .setColor("#ffffff")
-            .setDescription("**Full Changelog**: https://github.com/A9qx/Christian/compare/v1.1.1...v1.1.2")
+            .setDescription("**Full Changelog**: https://github.com/A9qx/Christian/compare/v1.1.2...v1.1.3")
             .addFields(
                 { name: 'Uptime:', value: uptimeString, inline: true },
                 { name: 'Build:', value: 'Stable', inline: true },
