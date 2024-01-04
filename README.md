@@ -54,7 +54,7 @@ To ensure the seamless functionality of slash commands, a few essential componen
 
 ## Run the Bot:
 
-    node index.js
+    yarn start
 
 ### That's it! You should be up and running now! You may also use it with pm2 to keep it running 24/7
 
