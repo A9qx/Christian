@@ -6,7 +6,7 @@ A Discord bot built primarily as a joke, based on my IRL friend Christian. Feel 
 
   
 
-First, install the required packages. The project was built using NodeJS v18.17.0, really any version that supports discord.js v14+ might work.
+First, install the required packages. The project was originally built using NodeJS v18.17.0, today it uses v20.12.0, however really any version that supports discord.js v14+ might work.
 
 ## How to use:
 
@@ -32,7 +32,9 @@ First, install the required packages. The project was built using NodeJS v18.17.
 
 To ensure the seamless functionality of slash commands, a few essential components must be considered. The Guild ID, signifying the specific server through which you're effecting modifications to the bot, plays a pivotal role. By associating slash command registration with this designated server, you don't need to wait 24 hours to see if your changes work when you publish it globally.
 
-  
+## Glucose Command
+
+This command is a special Easter egg, included by the creator of this project, A9qx, who has Type 1 Diabetes and is a ginger. **There's no documentation here, and 99.98% of you will not get it working**, since it requires having Type 1 Diabetes to get Nightscout working. However, if you're among the rare 0.001% who share this condition, you can refer to the Nightscout documentation to input your API key and URL and make it work!
 
 ## Publishing slash commands:
 
