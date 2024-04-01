@@ -12,6 +12,6 @@
   "repository": "https://github.com/A9qx/Christian.git",
   "dependencies": {
     "discord.js": "^14.14.1",
-    "node-fetch": "2"
+    "node-fetch": "3"
   }
 }
